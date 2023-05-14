@@ -1,0 +1,27 @@
+table {
+    border-collapse: collapse;
+}
+
+#table {
+    border-color: rgba(255, 255, 255, 0.473) grey grey rgba(255, 255, 255, 0.473);
+    border-style: inset;
+    width: 457px;
+    border-width:5px;
+}
+
+th {
+    text-align: center;
+    border: 2px rgb(29, 126, 206) solid;
+    color: rgb(190, 221, 190);
+    background-color: rgb(20, 58, 33);
+}
+
+td {
+    border: 2px rgb(29, 126, 206) solid;
+    width: 110px;
+    background-color: rgb(190, 221, 190);
+}
+
+.dep2 {
+    background-color:rgb(102, 136, 102);
+}

@@ -1,5 +1,7 @@
 table {
-    border-collapse: collapse;
+    /* border-collapse: collapse; */
+    border: grey solid 2.5px;
+    border-style: outset;
 }
 
 h3 {
@@ -10,14 +12,13 @@ h3 {
 }
 
 th {
-    border: 2px black;
-    border-style: ridge;
+    border-style: double;
+    border: 2px black solid;
     width: 30vw;
 }
 
 #c1 {
     background-color: aquamarine;
-    
 }
 
 #c2 {

@@ -1,11 +1,12 @@
 table {
     border-collapse: collapse;
+    width: 350px;
 }
 
 #table {
     border-color: rgba(255, 255, 255, 0.473) grey grey rgba(255, 255, 255, 0.473);
     border-style: inset;
-    width: 320px;
+    width: 350px;
     border-width:5px;
 }
 

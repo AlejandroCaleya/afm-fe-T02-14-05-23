@@ -1,0 +1,29 @@
+table {
+    border: 3px solid;
+    border-color: rgba(128, 128, 128, 0.905) black black rgba(128, 128, 128, 0.889);
+    border-style: outset;
+    text-align: center;
+    width: 90%;
+    /* background-color: rgb(252, 240, 169); */
+    background-image: url(../imgs/textura.png);
+    background-position: ;
+}
+
+td {
+    border: 2px solid;
+    border-color: rgba(0, 0, 0, 0.851) rgba(128, 128, 128, 0.84) rgba(128, 128, 128, 0.851) rgba(0, 0, 0, 0.873);
+    border-style: inset;
+}
+
+#titulo {
+    background-color: rgb(46, 151, 88);
+    color: brown;
+}
+
+.r124 {
+    background-color: rgb(252, 215, 169);
+}
+
+.r23 {
+    background-color: rgb(243, 240, 94);
+}

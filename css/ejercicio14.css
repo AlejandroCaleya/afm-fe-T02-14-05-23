@@ -1,0 +1,32 @@
+body {
+    background-image: url(../imgs/pingu.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    padding-top: 22%;
+    float: left;
+}
+
+#table {
+    margin-bottom: 500px;
+    margin-left: 700px;
+}
+
+table {
+    background-color: blanchedalmond;
+    border-color: rgba(177, 177, 177, 0.582) black black rgba(177, 177, 177, 0.582);
+    border-width: 3px;
+    border-style: inset;
+    text-align: center;
+}
+
+th {
+    border: 1px black solid;
+    background-color: whitesmoke    ;
+}
+
+td {
+    border: 1px black solid;
+    background-color: blanchedalmond;
+    width: 8%;
+}

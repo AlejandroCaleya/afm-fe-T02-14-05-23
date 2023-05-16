@@ -1,0 +1,12 @@
+table {
+    border: 2px black solid;
+    text-align: left;
+}
+
+td, th {
+    border: 2px black solid;
+}
+
+#center {
+    text-align: center;
+}

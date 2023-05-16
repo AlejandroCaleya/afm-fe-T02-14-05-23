@@ -1,0 +1,67 @@
+div {
+    /* margin-bottom: 20px; */
+}
+
+.ant {
+    border: 2px blue solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(164,211,255);
+}
+
+#main {
+    border: 3px red solid;
+    margin-left: 20px;
+    width: 400px;
+    height: 300px ;
+    background-color: rgb(164,211,255);
+}
+
+#cel {
+    /* border: 2px red solid; */
+    height: 20%;
+    background-image: url(../imgs/mario-clouds.png);
+    background-size: contain;
+}
+
+#mario {
+    /* border: 2px red solid; */
+    height: 75%;
+    background-image: url(../imgs/mario.png);
+    background-repeat: no-repeat;
+    background-position-y: 114%;
+}
+
+#terra {
+    /* border: 2px red solid; */
+    height: 5%;
+    background-image: url(../imgs/mario-floor.png);
+    background-size: contain;
+}
+
+.mini-cel {
+    /* border: 2px red solid; */
+    height: 90%;
+    background-image: url(../imgs/mario-clouds.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.mini-mario {
+    /* border: 2px red solid; */
+    height: 100%;
+    background-image: url(../imgs/mario.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0%;
+    background-position-y: 11px;
+}
+
+.mini-terra {
+    /* border: 2px red solid; */
+    height: 10%;
+    background-image: url(../imgs/mario-floor.png);
+    background-size: contain;
+}

@@ -1,20 +1,20 @@
 body {
     /* background-color: aqua; */
-    background-image: url('../imgs/e17.jpg');
-    /* background-repeat: repeat;
+    background-image: url('../imgs/ac.jpg');
+    /* background-repeat:repeat;
     background-size: cover; */
-    color: red;
+    color: black;
 }
+
 
 div {
     width: 200px;
     height: 200px;
-    border: 3px red solid;
+    border: red solid 3px;
     float: left;
-    background-color: aliceblue;
     margin-right: 20px;
-    margin-top: 20px;
-    padding-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 #divA {
@@ -22,23 +22,80 @@ div {
 }
 
 #divB {
-    background-image: url(../imgs/back_mantel.jpg);
-    width: 164px;
-    height: 164px;
+    width: 160px;
+    height: 160px;
+    background-image: url('../imgs/back_mantel.jpg');
     padding: 20px;
     background-clip: content-box;
 }
 
-#divD {
-    background-image: url(../imgs/back_mantel.jpg);
+#divC {
+    background-image: url('../imgs/back_mantel.jpg');
     background-size: cover;
-    width: 164px;
-    height: 164px;
+}
+
+#divD {
+    background-color: aliceblue;
+    background-image: url('../imgs/back_mantel.jpg');
+    background-size: cover;
+    width: 160px;
+    height: 160px;
     padding: 20px;
     background-origin: content-box;
     background-repeat: no-repeat;
 }
 
+#divE {
+    background-image: url(../imgs/guy.jpg);
+    background-size: cover;
+}
+
+#divF {
+    background-color: aliceblue;
+    background-image: url('../imgs/guy.jpg');
+    background-size: cover;
+    width: 160px;
+    height: 160px;
+    padding: 20px;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+}
+
+#divG {
+    background-color: aliceblue;
+    background-image: url('../imgs/guy-wide.jpg');
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+}
+
+#divH {
+    background-color: aliceblue;
+    background-image: url('../imgs/guy-tall.jpg');
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+}
+
 #divI {
-    background-color: ;
+    background: linear-gradient(to right, yellow 10%, rgb(81, 76, 76) 100%);
+}
+
+#divJ {
+    background: linear-gradient(to top, rgb(135, 33, 33) 20%, rgb(236, 144, 144) 90%);
+}
+
+#divK {
+    background: linear-gradient(to top, green 10%, rgb(208, 208, 208) 90%);
+}
+
+#divL {
+    background: linear-gradient(to top, green 0%, grey 100%);
+    opacity: 50%;
 }
